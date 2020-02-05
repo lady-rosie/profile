@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:600|Hind:400,600|Lobster&display=swap');
+body {
+  color: #342E37;
+  background-color: #F6F7EB;
+  font-family: 'Hind', sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+  }
+
+h1 {
+  font-family: 'Lobster', cursive;
+  }
+
+h2, h3 {
+  color: #C6B9CD;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 600;
+  }
+
+a {
+  text-decoration: none;
+  }
+
+  a:hover {
+  text-decoration: none;
+  }
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  }
+
+.text-center {
+  text-align: center;
+  }
+
+.text-left {
+  text-align: left;
+  }
+
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border: 1px solid lightgrey;
+  margin: 24px auto;
+  }
+
+.img-round {
+border-radius: 50%;
+  }
+
+.img-small {
+width: 200px;
+height: 200px;
+  }
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+}
+
+.btn-red {
+  color: white;
+  background-color: #89023E;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.btn-red:hover {
+  background-color: white;
+  color: #89023E;
+  transition: 0.3;
+  font-weight: bold;
+  border: 1px solid #89023E
+  }
+
+  .icon-social{
+  margin: 0 16px;
+  padding: 0px 20px;
+  font-size: 42px;
+  color: #342E37;
+  transition: 0.4s;
+  }
+
+  .icon-social:hover {
+  color: #89023E;
+  }
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  .icon-social {
+    margin: 0 16px;
+    padding: 0px;
+    font-size: 42px;
+    color: #342E37;
+    transition: 0.4s;
+  }
+
+  .text-left {
+    text-align: center;
+  }
+}
+
+
+
+
